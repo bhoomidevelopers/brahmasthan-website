@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Bhoomi Developers</title>
+  <meta name="description"
+    content="Get in touch with Bhoomi Developers. Enquire about our projects and we'll connect with you on WhatsApp.">
+  <meta property="og:title" content="Contact Bhoomi Developers">
+  <meta property="og:description"
+    content="Enquire about our projects — Bhoomi Developers will connect with you directly.">
+  <meta name="theme-color" content="#A8966E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="nav nav--transparent" role="navigation" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Bhoomi Developers — Home">
+          <img src="assets/images/logo/brand-mark.svg" alt="Bhoomi Developers Brand Mark" class="nav__logo-img">
+          <div class="nav__logo-text">BHOOMI DEVELOPERS<span>Real Estate</span></div>
+        </a>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="projects.html" class="nav__link">Projects</a></li>
+          <li><a href="contact.html" class="nav__link is-active" aria-current="page">Contact</a></li>
+        </ul>
+        <div class="nav__cta">
+          <a href="#contact-form" class="btn btn--primary btn--sm">Enquire Now</a>
+        </div>
+        <button class="nav__hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav__mobile" role="dialog" aria-label="Mobile navigation">
+      <nav>
+        <ul style="display:flex;flex-direction:column;align-items:center;gap:2rem;list-style:none;" role="list">
+          <li><a href="index.html" class="nav__mobile-link">Home</a></li>
+          <li><a href="about.html" class="nav__mobile-link">About</a></li>
+          <li><a href="projects.html" class="nav__mobile-link">Projects</a></li>
+          <li><a href="contact.html" class="nav__mobile-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav__mobile-cta">
+        <a href="#contact-form" class="btn btn--primary nav__mobile-link">Enquire Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" style="padding-top:calc(80px + 4rem)">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <div style="margin-top:2rem;" data-reveal>
+          <p class="page-hero__eyebrow">Get In Touch</p>
+          <h1 class="page-hero__title">Let's Talk.</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT LAYOUT -->
+    <section class="section section--lg" id="contact-form" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Contact Info -->
+          <div data-reveal>
+            <p class="eyebrow">Our Details</p>
+            <h2 class="heading-sm" id="contact-heading" style="margin-bottom:2rem;">
+              We'd love to hear from you.
+            </h2>
+            <p class="body-md" style="margin-bottom:2.5rem;">
+              Whether you're interested in a specific project, want to understand our development approach, or simply
+              want to know more — reach out and we'll connect with you directly.
+            </p>
+
+            <div class="contact-info__item">
+              <svg class="contact-info__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.96 1.18 2 2 0 012.95 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z" />
+              </svg>
+              <div>
+                <p class="contact-info__label">Phone</p>
+                <!-- PLACEHOLDER: Replace with actual phone -->
+                <p class="contact-info__value"><a href="tel:+918374835533">+91 83748 35533</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <svg class="contact-info__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+              </svg>
+              <div>
+                <p class="contact-info__label">WhatsApp</p>
+                <p class="contact-info__value"><a id="contact-whatsapp" href="#">Chat on WhatsApp</a></p>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <svg class="contact-info__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <div>
+                <p class="contact-info__label">Email</p>
+                <!-- PLACEHOLDER: Replace with actual email -->
+                <p class="contact-info__value"><a
+                    href="mailto:bhoomidevelopers.brahmasthan@gmail.com">bhoomidevelopers.brahmasthan@gmail.com</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <svg class="contact-info__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div>
+                <p class="contact-info__label">Location</p>
+                <p class="contact-info__value">Kothapet road, NSR International High School, Warangal</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form -->
+          <div data-reveal data-reveal-delay="2">
+            <div class="contact-form-card">
+              <p class="eyebrow" style="margin-bottom:1rem;">Send a Message</p>
+              <h3 class="heading-sm" style="margin-bottom:.5rem;">Start a Conversation</h3>
+              <p class="body-sm" style="margin-bottom:2rem;">Fill in your details and we'll reach out on WhatsApp.</p>
+
+              <form data-contact-form novalidate aria-label="Contact form">
+                <div data-form-body>
+                  <div class="form-group" style="margin-bottom:1.25rem;">
+                    <label class="form-label" for="contact-name">Your Name</label>
+                    <input class="form-input" type="text" id="contact-name" data-field="name"
+                      placeholder="Enter your full name" autocomplete="name" required>
+                    <span class="form-error" data-error="name" role="alert"></span>
+                  </div>
+
+                  <div class="form-group" style="margin-bottom:1.25rem;">
+                    <label class="form-label" for="contact-phone">Mobile Number</label>
+                    <input class="form-input" type="tel" id="contact-phone" data-field="phone"
+                      placeholder="10-digit mobile number" autocomplete="tel" inputmode="numeric" maxlength="10"
+                      required>
+                    <span class="form-error" data-error="phone" role="alert"></span>
+                  </div>
+
+                  <div class="form-group" style="margin-bottom:1.75rem;">
+                    <label class="form-label" for="contact-message">Your Message <span
+                        style="text-transform:none;letter-spacing:0;font-weight:300;color:var(--text-muted)">(optional)</span></label>
+                    <textarea class="form-input" id="contact-message" data-field="message"
+                      placeholder="Tell us what you're looking for…" rows="4"
+                      style="height:auto;padding-top:.875rem;resize:vertical;"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">
+                    Send via WhatsApp
+                  </button>
+                </div>
+
+                <!-- Success -->
+                <div data-success class="success-message" style="background:var(--bg-secondary);border-radius:4px;">
+                  <svg class="success-message__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="1.5" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4" />
+                  </svg>
+                  <h3 class="success-message__title" style="color:var(--text-primary);">Opening WhatsApp…</h3>
+                  <p class="success-message__text" style="color:var(--text-secondary);">Thank you for reaching out.
+                    We'll continue the conversation on WhatsApp.</p>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP PLACEHOLDER -->
+    <section class="section section--muted" aria-label="Location map">
+      <div class="container">
+        <div data-reveal style="text-align:center; margin-bottom:2rem;">
+          <p class="eyebrow">Find Us</p>
+          <h2 class="heading-sm">Our Location</h2>
+        </div>
+        <!--
+      PLACEHOLDER: Replace this div with a Google Maps iframe.
+      Example:
+      <iframe
+        src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
+        class="map-embed"
+        title="Bhoomi Developers office location"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    -->
+        <div data-reveal>
+          <iframe
+            src="https://www.google.com/maps?q=Brahmasthan,+Kothapet+Rd,+beside+NSR+International+School,+Warangal,+Telangana+506006&output=embed"
+            class="map-embed" title="Brahmastan location" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__top">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer__brand">
+            <img src="assets/images/logo/brand-mark.svg" alt="Bhoomi Developers Brand Mark" class="footer__logo-img">
+            <div>
+              <div class="footer__logo-text">BHOOMI DEVELOPERS</div>
+              <div class="footer__logo-sub">Real Estate</div>
+            </div>
+          </div>
+          <p class="footer__tagline">
+            Thoughtfully planned real estate projects designed for better living and long-term value.
+          </p>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <p class="footer__col-title">Navigation</p>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About</a></li>
+            <li><a href="projects.html" class="footer__link">Projects</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Projects -->
+        <div>
+          <p class="footer__col-title">Projects</p>
+          <ul class="footer__links" role="list">
+            <li><a href="projects/brahmasthan.html" class="footer__link">Brahmasthan</a></li>
+            <!-- Future projects will be added here -->
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <p class="footer__col-title">Contact</p>
+
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.96 1.18 2 2 0 012.95 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z" />
+            </svg>
+            <div>
+              <div class="footer__contact-item" style="margin:0; border:none; padding:0;">
+                <!-- PLACEHOLDER: Replace with actual phone number -->
+                <a href="tel:+918374835533">+91 83748 35533</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" />
+            </svg>
+            <div>
+              <!-- WhatsApp via config -->
+              <a id="footer-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+            </div>
+          </div>
+
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <div>
+              <!-- PLACEHOLDER: Replace with actual email -->
+              <a href="mailto:bhoomidevelopers.brahmasthan@gmail.com">bhoomidevelopers.brahmasthan@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="footer__contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <div style="color:rgba(249,247,244,.6); font-size:.8125rem; font-weight:300;">
+              Kothapet road, NSR International High School, Warangal
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer bottom -->
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Bhoomi Developers. All rights reserved.</p>
+        <div class="footer__social" aria-label="Social media links">
+          <!-- Social links rendered by JS if configured in config.js -->
+          <span id="footer-social-links"></span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const waLink = document.getElementById('contact-whatsapp');
+      if (waLink && typeof BHOOMI_CONFIG !== 'undefined') {
+        waLink.href = `https://wa.me/${BHOOMI_CONFIG.whatsappNumber}`;
+      }
+    });
+  </script>
+
+</body>
+
+</html>
